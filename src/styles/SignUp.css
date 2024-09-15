@@ -1,0 +1,140 @@
+.sign-up {
+  background-color: transparent;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sign-up-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 70px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 735px;
+  width: 450px;
+  margin-left: 82px;
+}
+
+.form-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.sign-up-button {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(229, 9, 20) !important;
+  border: none;
+}
+
+.get-sign-in-code {
+  width: 100%;
+  background-color: rgba(63, 61, 59, 0.7) !important;
+  border: none !important;
+}
+
+.forgot-password {
+  margin-top: 15px;
+}
+
+.forgot-password a {
+  color: white !important;
+  text-decoration: none;
+  text-align: center;
+  font-size: medium;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+.sign-up-link {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.sign-up-link a {
+  color: white;
+  display: inline;
+  font-weight: bold;
+  font-size: medium;
+  text-decoration: none;
+}
+
+.sign-up-link a:hover {
+  text-decoration: underline;
+}
+
+.sign-up-form p {
+  color: white;
+}
+
+.rememberMeGroup {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.rememberMeGroup input[type="checkbox"] {
+  margin: 0;
+  vertical-align: middle;
+  transform: scale(1.5);
+  size: 10px;
+}
+
+.remembermegroup input[type="checkbox"]:checked::after {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+
+.rememberMeGroup p {
+  padding-left: 15px;
+  transform: translateY(7px);
+}
+
+.EmailBox {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: rgba(16, 16, 16, 0.6) !important;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.EmailBox::placeholder {
+  color: rgb(185, 185, 185);
+}
+
+.PasswordBox {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: rgba(16, 16, 16, 0.6) !important;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.PasswordBox::placeholder {
+  color: rgb(185, 185, 185);
+}
+
+.reCAPTCHA {
+  text-align: left;
+  font-size: small;
+  color: #7b8c8c !important;
+}
+
+.reCAPTCHA a {
+  display: inline;
+  color: #0771c6 !important;
+  text-decoration: none;
+}
+
+.reCAPTCHA a:hover {
+  text-decoration: underline;
+}

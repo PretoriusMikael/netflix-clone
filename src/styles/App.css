@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+#logo {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  align-items: center;
+  background-color: transparent;
+}
+
+#logo img {
+  margin-left: 160px;
+}
+
+.header-main {
+  background-size: 100% 120%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Netflix-Background.jpg);
+  height: 970px;
+  z-index: 1;
+  position: relative;
+}
